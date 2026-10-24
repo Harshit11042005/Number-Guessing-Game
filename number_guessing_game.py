@@ -1,15 +1,3 @@
-"""
-Number Guessing Game - polished desktop UI (pure Python, Tkinter only).
-
-Run:  python number_guessing_game.py
-Needs Python 3.8+ (Tkinter ships with Python; on Linux: sudo apt install python3-tk)
-
-Features
-- 3 difficulty levels, each with its own range and number of tries
-- Live "temperature" meter that shows how close the last guess was
-- Colour-coded guess history, attempt dots, best score per difficulty
-- Keyboard friendly: type and press Enter, Esc starts a new game
-"""
 
 import random
 import tkinter as tk
